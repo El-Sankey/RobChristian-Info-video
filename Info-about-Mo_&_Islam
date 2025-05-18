@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--    <link rel="stylesheet" href="css.css">-->
+    <title>Video met info-&-referenties</title>
+</head>
+<body>
+<style>
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    h1 {
+        color: aliceblue;
+        tab-size: 4em;
+    }
+
+    span {
+        border: 50px solid;
+        background-color: crimson;
+        color: #464627;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+    s {
+        text-decoration-thickness: 4px;
+        text-decoration-line: underline;
+        text-decoration-color: #599a2e;
+    }
+
+    .main-div {
+        border: 2px dashed currentcolor;
+        color: #424663;
+        display: block;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        height: 50vh;
+        margin: 50px;
+        /*position: relative;*/
+    }
+
+    video {
+        display: flex;
+        /*justify-content: center;*/
+        /*align-content: center;*/
+        position: absolute;
+        /*height: 50%;*/
+        /*width: 100px;*/
+    }
+    p {
+        border: 1px solid #599a2e;
+        text-decoration-color: aquamarine;
+    }
+
+</style>
+<header>
+    <span>
+        <h1>¡ ¡ For some, <strong><s>Information</s></strong> and some, <strong><s>knowledge</s></strong> purpose only ! !</h1>
+    </span>
+</header>
+<main>
+    <div class="main-div">
+        <h2>This is what a lot of ppls don't know, or don't want to know</h2>
+        <div class="video">
+            <iframe
+                    src="./video-Rob_Christian-explanation/Schermopnamen/Rob%20Christian-about%20muhammed-2025-01-09%20160650.mp4"
+                    frameborder="0"></iframe>
+        </div>
+        <p>Well ppls it's in every religion and cult, ¡there is a bad and scary part/site of it!
+        There are some ppls that know this and just don't care about this, or don't want to care about the truth, or
+            don't want others to know about this, or they just neglected the truth
+            about
+            what's written</p>
+    </div>
+</main>
+</body>
+</html>
